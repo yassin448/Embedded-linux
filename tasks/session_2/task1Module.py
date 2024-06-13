@@ -1,6 +1,6 @@
 import webbrowser
 
-githuburl="https://github.com/yassin448/embedded-linux/tree/main/tasks_1"
+githuburl="https://github.com/yassin448/embedded-linux"
 
 
 def firefoxTakeURL(githuburl):
