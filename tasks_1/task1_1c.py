@@ -1,8 +1,10 @@
-print("please enter radius of the circle")
-radius=input()
+import os
 
-def calcArea(radius):
-    pi = 3.141592653589793
-    return pi**float(radius)
+def getEnvirVar(varName):
 
-print(f"area of the circle equals {calcArea(radius)}")
+ return os.environ.get(varName)
+
+
+varName = 'HOME'
+path = getEnvirVar(varName)
+print("The value of the ",{varName} ,"environment variable is: " ,{path})
