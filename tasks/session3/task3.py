@@ -2,7 +2,7 @@ import sys
 
 def main():
     
-    if len(sys.argv) < 2:
+    if len(sys.argv) < 1:
         print("No command-line arguments provided.")
     else:
         print("Command-line arguments:")

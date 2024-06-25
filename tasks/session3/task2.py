@@ -1,4 +1,4 @@
-def get_ascii_value(character):
+def getasciivalue(character):
     return ord(character)
 
 def main():
@@ -7,7 +7,7 @@ def main():
 
     
     if len(char) == 1:
-      ascii_value = get_ascii_value(char)
+      ascii_value = getasciivalue(char)
       print(f"The ASCII value of '{char}' is {ascii_value}.")
     else:
         
