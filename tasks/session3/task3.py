@@ -10,3 +10,4 @@ def main():
             print(f"Argument {i}: {arg}")
             
 main()
+
