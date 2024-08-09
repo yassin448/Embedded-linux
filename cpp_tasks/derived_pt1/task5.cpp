@@ -9,7 +9,7 @@ if (arr[i]%2==0) {
 
 std::cout<<arr[i]<<std::endl;
 
-}
+}         
 
 
 }
